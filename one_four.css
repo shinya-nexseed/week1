@@ -1,0 +1,87 @@
+/*
+CSS構文 (セレクター、ブロック)
+
+セレクター {
+  命令
+}
+
+・セレクターとは
+HTML側のどの要素に今回の命令を与えるのかを決定するもの。
+種類としては、HTMLのタグ名、タグにオプションで与えられたid名または
+class名などが基本的にあります。
+
+・ブロックとは
+上記サンプルの{} ← 波括弧の部分でその中にHTMLタグに対する命令を書く。
+
+・命令
+実際にHTMLタグで囲った文字にどんな変化を与えるかを書く。
+色、大きさ、位置など。
+
+*/
+
+/* タグ名で指定 */
+body {
+  margin-top: 60px;
+  background-color: #b0c4de;
+/*
+  margin-left: 200px;
+  margin-right: 200px;
+*/
+
+}
+
+/* classで指定 */
+/* classでcssから指定する場合は、ドットとclassの""の中の文字列で指定 */
+.gray_box {
+  color: #00008b;
+  font-size: 30px;
+  background-color: #dcdcdc;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border: 2px solid #000000;
+}
+
+.blue_box {
+  background-color: #f0ffff;
+  border: 2px solid #000000;
+  font-size: 24px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.main {
+  background-color: #dcdcdc;
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* idで指定 */
+#title {
+  color: red;
+}
+
+p {
+  font-size: 40px;
+}
+
+.foo {
+  font-size: 10px;
+}
+
+p.bar {
+  font-size: 20px;
+}
+
+div#top.main {
+  
+}
+
+
+
+
+
+
+
+
+
